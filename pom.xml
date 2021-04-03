@@ -8,11 +8,11 @@
         <version>2.1.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>br.com.alura.microservice.loja</groupId>
-    <artifactId>loja</artifactId>
+    <groupId>br.com.alopes.microservice</groupId>
+    <artifactId>ms-store</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>loja</name>
-    <description>Loja</description>
+    <name>ms-store</name>
+    <description>Projeto para exemplificar o uso de uma API de Loja</description>
 
     <properties>
         <java.version>1.8</java.version>

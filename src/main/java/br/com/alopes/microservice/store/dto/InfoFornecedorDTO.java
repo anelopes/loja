@@ -1,4 +1,4 @@
-package br.com.alopes.microservice.loja.dto;
+package br.com.alopes.microservice.store.dto;
 
 public class InfoFornecedorDTO {
 

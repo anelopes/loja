@@ -1,6 +1,6 @@
 spring:
   application:
-    name: 'loja'
+    name: 'store'
   profiles:
     active: default
   cloud:

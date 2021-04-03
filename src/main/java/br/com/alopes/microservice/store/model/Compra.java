@@ -1,4 +1,4 @@
-package br.com.alopes.microservice.loja.model;
+package br.com.alopes.microservice.store.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;

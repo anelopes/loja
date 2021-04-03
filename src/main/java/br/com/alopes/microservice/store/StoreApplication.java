@@ -1,4 +1,4 @@
-package br.com.alopes.microservice.loja;
+package br.com.alopes.microservice.store;
 
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
@@ -20,7 +20,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableCircuitBreaker
 @EnableScheduling
 @EnableResourceServer //para trabalhar com Autenticação
-public class LojaApplication {
+public class StoreApplication {
 
     @Bean
     public RequestInterceptor getRequestInterceptor() {
@@ -45,7 +45,7 @@ public class LojaApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(LojaApplication.class, args);
+        SpringApplication.run(StoreApplication.class, args);
     }
 
 }

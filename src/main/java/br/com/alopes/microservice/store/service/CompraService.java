@@ -1,11 +1,11 @@
-package br.com.alopes.microservice.loja.service;
+package br.com.alopes.microservice.store.service;
 
-import br.com.alopes.microservice.loja.client.FornecedorClient;
-import br.com.alopes.microservice.loja.client.TransportadorClient;
-import br.com.alopes.microservice.loja.dto.*;
-import br.com.alopes.microservice.loja.model.Compra;
-import br.com.alopes.microservice.loja.model.CompraState;
-import br.com.alopes.microservice.loja.repository.CompraRepository;
+import br.com.alopes.microservice.store.client.FornecedorClient;
+import br.com.alopes.microservice.store.client.TransportadorClient;
+import br.com.alopes.microservice.store.dto.*;
+import br.com.alopes.microservice.store.model.Compra;
+import br.com.alopes.microservice.store.model.CompraState;
+import br.com.alopes.microservice.store.repository.CompraRepository;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

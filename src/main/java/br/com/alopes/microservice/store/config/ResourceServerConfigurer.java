@@ -1,4 +1,4 @@
-package br.com.alopes.microservice.loja.config;
+package br.com.alopes.microservice.store.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;

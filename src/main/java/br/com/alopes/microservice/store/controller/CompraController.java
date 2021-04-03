@@ -1,8 +1,8 @@
-package br.com.alopes.microservice.loja.controller;
+package br.com.alopes.microservice.store.controller;
 
-import br.com.alopes.microservice.loja.model.Compra;
-import br.com.alopes.microservice.loja.service.CompraService;
-import br.com.alopes.microservice.loja.dto.CompraDTO;
+import br.com.alopes.microservice.store.model.Compra;
+import br.com.alopes.microservice.store.service.CompraService;
+import br.com.alopes.microservice.store.dto.CompraDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
